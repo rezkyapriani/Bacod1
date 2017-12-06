@@ -80,6 +80,8 @@
 					<a  class="anchor-scroll" href="#reservation">Reservation</a></li>
 				<li  id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835 page-scroll">
 					<a  class="anchor-scroll" href="#contact">Contact</a></li>
+					<li  id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835 page-scroll">
+					<a  class="anchor-scroll" href="login.php">Login</a></li>
 				</ul>
 			</nav>
 			</div>
@@ -263,7 +265,7 @@
 					<div class="wpb_column vc_column_container vc_col-sm-12 ">
 						<div class="vc_column-inner  ">
 						<div class="wpb_wrapper">
-							<div class="barbershop_heading lx_barbershop barbershop_heading              dark   text-center" style="background-color:;" data-aos="fade-up" data-aos-duration="1000"><div class="container-fluid" ><div class="row" ><div class=" col-xs-12  " ><h3 class="title medium" >Our Services</h3><p class="subtitle small" >Service Yang Kami Sediakan<br /> Yang Bisa Anda Nikmati</p><div class="lx-divider ">
+							<div class="barbershop_heading lx_barbershop barbershop_heading              dark   text-center" style="background-color:;" data-aos="fade-up" data-aos-duration="1000"><div class="container-fluid" ><div class="row" ><div class=" col-xs-12  " ><h3 class="title medium" >Our Services</h3><p class="subtitle small" >Service Yang Kami Sediakan<br />Bisa Anda Nikmati</p><div class="lx-divider ">
 								<span class="icon icon-barber" ></span>
 								</div>
 								</div>
@@ -588,7 +590,7 @@
 								<div class="row" >
 									<div class=" col-xs-12  " >
 										<h3 class="title medium" >Gallery</h3>
-										<p class="subtitle small" >Foto Bersama Pelanggan<br /> Saat Kami Melakukan Kegiatan Barber</p>
+										<p class="subtitle small" >Foto Bersama Pelanggan<br /> Saat Kami Melakukan Bacod</p>
 										<div class="lx-divider "><span class="icon icon-barber" ></span>
 										</div>
 									</div>
@@ -721,7 +723,7 @@
 							<div class="container-fluid" >
 								<div class="row" >
 									<div class=" col-xs-12  " >
-										<h3 class="title medium" >Barang Yang Kami Jual</h3>
+										<h3 class="title medium" >Barang Barber</h3>
 										<p class="subtitle small" >Babershop Kami Menjual Beberapa Barang<br /> Anda Dapat Membelinya Langsung di Barbershop kami</p>
 										<div class="lx-divider ">
 											<span class="icon icon-barber" ></span>
@@ -799,7 +801,7 @@
 													<div class="row" >
 														<div class=" col-xs-12  " >
 															<h3 class="title medium" >Book a Haircut</h3>
-															<p class="subtitle small" >Booking Sekarang dan Dapatkan kenikmatannya<br /> Untuk Mendapat Service Seperti Pelanggan lain dirumah Anda</p>
+															<p class="subtitle small" >Booking Sekarang dan Dapatkan Kepuasan Pelayanan dari Kami<br /> Untuk Mendapat Service Seperti Pelanggan lain dirumah Anda</p>
 															<div class="lx-divider ">
 															<span class="icon icon-barber" ></span>
 															</div>
