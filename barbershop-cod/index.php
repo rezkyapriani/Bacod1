@@ -1,3 +1,5 @@
+<?php session_start();
+if(isset($_GET['logout']))if(session_destroy()) header('location: ./');?>
 <!DOCTYPE html>
 <html class=" js_active  vc_desktop  vc_transform  vc_transform  vc_transform " lang="en-US">
 	<head>
@@ -80,8 +82,18 @@
 					<a  class="anchor-scroll" href="#reservation">Reservation</a></li>
 				<li  id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835 page-scroll">
 					<a  class="anchor-scroll" href="#contact">Contact</a></li>
-					<li  id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835 page-scroll">
+					<?php
+						if(empty($_SESSION['email'])){
+							echo '
+								<li  id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835 page-scroll">
 					<a  class="anchor-scroll" href="login.php">Login</a></li>
+							';
+						}else{
+							echo '
+								<li  id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835 page-scroll">
+					<a  class="anchor-scroll" href="?logout">Logout</a></li>';
+						}
+					?>
 				</ul>
 			</nav>
 			</div>
@@ -103,7 +115,7 @@
 												<div class="container-fluid" >
 													<div class="row" >
 														<div class=" col-xs-12  " >
-															<h3 class="title x-large" >Menjadi Barber Adalah Tentang Melayanai Pelanggan.</h3>
+															<h3 class="title x-large" >Menjadi Barber Adalah Tentang Melayani Pelanggan.</h3>
 															<p class="subtitle small" ></p></div>
 													</div>
 												</div>

@@ -80,22 +80,31 @@
 								<div class="barbershop_heading lx_barbershop barbershop_heading               left-space  " style="background-color:;" data-aos="fade-up" data-aos-duration="2000">
 									<div class="container-fluid" ><div class="row" >
 									<div class=" col-md-8 col-xs-12  " >
-									<h3 class="title medium" >Welcome</h3>
-											<p class="subtitle small" >BaCOD Web dengan menggunakan sistem booking untuk pemesanan yang lebih efisien.</p>
+									<h3 class="title medium" >BACOD WEB</h3>
+											<p class="subtitle small" >Sign Up</p>
 											<div class="lx-divider ">
 												<span class="icon icon-barber" ></span>
 											</div>
 											<form action="dbconn/action.php" method="post">
+												<div class="form-group">
+													<input type="text" name="nama" placeholder="Nama" class="form-control" required>
+												</div>
+												<div class="form-group">
+													<input type="text" name="alamat" placeholder="Alamat" class="form-control" required>
+												</div>
 												<div class="form-group">
 													<input type="email" name="email" placeholder="Email" class="form-control" required>
 												</div>
 												<div class="form-group">
 													<input type="password" name="password" placeholder="Password" class="form-control" required>
 												</div>
-												<button type="submit" name="login" class="btn btn-primary btn-lg">Login</button>
+												<div class="form-group">
+													<input type="text" name="telephone" placeholder="Nomor telephone" class="form-control" required>
+												</div>
+												<button type="submit" name="sign_up" class="btn btn-primary btn-lg">Continue</button>
 											</form>
 											<br>
-											<p class="subtitle small" >Don't have an account <a href="daftar.php">Sign Up</a></p>
+											<p class="subtitle small" >We will send you an Account Key to verify you're the owner of this phone <a href="#">Text me an Account Key      </a></p>
 										</div>
 									</div>
 								</div>
